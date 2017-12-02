@@ -1,14 +1,22 @@
-img{
-    max-width: 100%;
+main{
+    margin:auto
+    width:90%
 }
+footer{
+    text-align: center;
+    }
 
-header nav a{
-    color: #5055E1;
-    font-weight: bold;
-    text-decoration: none;
+@media screen and (min-width:992px){
+    main{
+        overflow: hidden;
     }
-@media screen and (max-width:991px){
-header nav a{
-    display: block;
+    main section,
+    main figure{
+        float:left;
+        width: 45%;
+   }
+    main figure{
+        text-align: center
     }
+    
 }
