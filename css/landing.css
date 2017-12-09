@@ -1,0 +1,10 @@
+section article{
+    background: red;
+    height: 200px;
+    /*padding: 
+    /*margin: arriba / derecha / abajo / izquierda */
+    margin: 0px 20px 0;
+    float: left;
+    width: 200px;
+}
+
